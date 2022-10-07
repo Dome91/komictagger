@@ -1,0 +1,5 @@
+rootProject.name = 'komictagger'
+include 'core'
+include 'cli'
+include 'web'
+

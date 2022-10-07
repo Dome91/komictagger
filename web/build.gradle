@@ -1,0 +1,13 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'application'
+}
+
+mainClassName = 'com.github.dome91.komictagger.web.ApplicationKt'
+
+group 'com.github.dome91.komictagger'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation project(':core')
+}
